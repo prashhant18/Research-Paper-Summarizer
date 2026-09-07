@@ -278,4 +278,4 @@ paper.pdf — p. 7 (score: 0.388)
 
 ## 📄 License
 
-MIT
+Apache 2.0
