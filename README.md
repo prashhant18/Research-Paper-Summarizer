@@ -31,7 +31,7 @@ Built with **SauerkrautLM-ColLFM2-450M** (a lightweight 450M-parameter ColPali-c
                     │        │              │                      │
                     │        ▼              ▼                      │
                     │  ┌──────────┐  ┌──────────────┐              │
-                    │  │  Groq    │◀─│  Retrieved   │              │
+                    │  │  Groq    │◀─│  Retrieved  │              │
                     │  │  LLM     │  │  context     │              │
                     │  └──────────┘  └──────────────┘              │
                     └──────────────────────────────────────────────┘
