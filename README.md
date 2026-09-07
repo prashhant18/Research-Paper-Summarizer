@@ -23,13 +23,13 @@ Built with **SauerkrautLM-ColLFM2-450M** (a lightweight 450M-parameter ColPali-c
 ┌─────────────┐     ┌──────────────────────────────────────────────┐
 │  Frontend   │     │                   Backend                    │
 │  React+Vite │     │                 FastAPI (Py3.11)             │
-│  (SSE client)│────▶│                                              │
+│ (SSE client)│────▶                                              │                                            
 └─────────────┘     │  ┌──────────┐  ┌──────────┐  ┌────────────┐  │
                     │  │  PDF     │  │  ColPali │  │  ChromaDB  │  │
-                    │  │  Parser  │──▶│ Retriever│──▶│ (vector DB)│  │
+                    │  │  Parser  │──▶│ Retriever│──▶│(vector DB) │  
                     │  └──────────┘  └──────────┘  └────────────┘  │
-                    │        │              │                       │
-                    │        ▼              ▼                       │
+                    │        │              │                      │
+                    │        ▼              ▼                      │
                     │  ┌──────────┐  ┌──────────────┐              │
                     │  │  Groq    │◀─│  Retrieved   │              │
                     │  │  LLM     │  │  context     │              │
