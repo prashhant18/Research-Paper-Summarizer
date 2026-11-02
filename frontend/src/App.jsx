@@ -8,7 +8,7 @@ export default function App() {
   const [isStreaming, setIsStreaming] = useState(false);
   const [uploadStatus, setUploadStatus] = useState("");
   const [uploadError, setUploadError] = useState("");
-  const [uploadProgress, setUploadProgress] = useState(null); // {stage,current,total,filename}
+  const [uploadProgress, setUploadProgress] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef(null);
   const messagesEndRef = useRef(null);

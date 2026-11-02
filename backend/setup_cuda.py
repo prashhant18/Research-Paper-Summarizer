@@ -36,7 +36,7 @@ MODELING_REL_PATH = "models/lfm2/collfm2/modeling_collfm2.py"
 FLASH_ATTN_LINE = 'attn_implementation="flash_attention_2"'
 EAGER_LINE = 'attn_implementation="eager"'
 
-# ---- 注释：假设以相对路径运行 —— 定位安装好的包 -----------------------
+
 def _find_package_dir(package_name: str) -> Path:
     """Return the directory of an installed package using importlib."""
     spec = importlib.util.find_spec(package_name)

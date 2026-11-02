@@ -50,7 +50,7 @@ def iter_pdf_pages(
         pdf.close()
         return
 
-    scale = dpi / 72.0
+    scale = dpi / 72.0 #1.333
     try:
         for index in range(total):
             page = pdf[index]
